@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Absolute Position</title>
+    </head>
+    <style>
+        .wrapper{
+            background: rgb(181, 231, 231);
+            border-radius: 8px;
+            padding: 16px;
+            margin: 32px;
+            min-height: 300px;
+            position: relative;
+        }
+
+        .hal{
+            background: rgb(73, 185, 185);
+            color: pink;
+            padding: 10px;
+            left: 40px;
+            margin-top: 40px;
+            position: absolute;
+        }
+
+        .hal1{
+            top: 50px;
+            bottom: 0px;
+            background: rgb(24, 105, 116);
+        }
+
+        .hal2{
+            top: 100px;
+            bottom: 0px;
+            left: 80px;
+            background: rgb(0, 74, 104);
+        }
+
+        .hal3{
+            top: 50px;
+            left: 700px;
+            bottom: 0px;
+            background: rgb(24, 105, 116);
+        }
+
+        .hal4{
+            top: 100px;
+            bottom: 0px;
+            left: 650px;
+            background: rgb(0, 74, 104);
+        }
+    </style>
+    <div class="wrapper">
+        <center><h1> Absolute Position</h1></center>
+        <div class="hal hal1"> Bagian 1 </div>
+        <div class="hal hal2"> Bagian 2 </div>
+        <div class="hal hal3"> Bagian 3 </div>
+        <div class="hal hal4"> Bagian 4 </div>
+    </div>
+</html>
