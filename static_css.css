@@ -1,0 +1,11 @@
+.kotak{
+	background: rgb(8, 71, 122);
+    color: white;
+    padding: 16px;
+    margin: 10px;
+    left: 40px;
+}
+
+h1{
+    color: rgb(8, 71, 122);
+}
