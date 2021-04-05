@@ -1,0 +1,10 @@
+.wrapper{
+	background: rgb(230, 51, 155);
+    color: white;
+    padding: 16px;
+    margin: 10px;
+}
+
+h1{
+    color: rgb(230, 51, 155);
+}
