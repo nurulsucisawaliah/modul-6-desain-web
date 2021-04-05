@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #kotak1{
+                position: absolute;
+                margin: 20px 150px;
+                height: 200px;
+                width: 200px;
+                background-color: teal;
+                z-index: 3;
+            }
+
+            #kotak2{
+                position: fixed;
+                margin: 100px 0px;
+                height: 150px;
+                width: 300px;
+                background-color: rgb(38, 53, 138);
+                z-index: 2;
+            }
+
+            #kotak3{
+                position: static;
+                margin: 0px 20px;
+                height: 200px;
+                width: 400px;
+                background-color: rgb(19, 0, 105);
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="kotak1"> kotak 1</div>
+        <div id="kotak2">kotak 2</div>
+        <div id="kotak3">kotak 3</div>
+    </body>
+</html>
